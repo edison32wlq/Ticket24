@@ -37,3 +37,8 @@ def encontrarMenor(num1,num2,num3,num4):
     if menorActual > num4:
         menorActual = num4
     return menorActual
+    
+def calcularCuota(monto, interesAnual, numeroMeses):
+    interesMensual = (interesAnual/12)/100  
+    cuotaMensual = (monto*interesMensual)/(1-(1+interesMensual)**(-numeroMeses))
+    return cuotaMensual
