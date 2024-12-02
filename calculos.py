@@ -21,19 +21,19 @@ def determinarResultadosIMC(imc):
     return res
 
 def encontrarMayor(num1,num2,num3):
-    mayorActual=num1
-    if mayorActual<num2:
-        mayorActual=num2
-    if mayorActual<num3:
-        mayorActual=num3
+    mayorActual = num1
+    if mayorActual < num2:
+        mayorActual = num2
+    if mayorActual < num3:
+        mayorActual = num3
     return mayorActual
 
 def encontrarMenor(num1,num2,num3,num4):
-    menorActual=num1
-    if menorActual>num2:
-        menorActual=num2
-    if menorActual>num3:
-        menorActual=num3
-    if menorActual>num4:
-        menorActual=num4
+    menorActual = num1
+    if menorActual > num2:
+        menorActual = num2
+    if menorActual > num3:
+        menorActual = num3
+    if menorActual > num4:
+        menorActual = num4
     return menorActual
