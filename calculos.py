@@ -20,3 +20,10 @@ def determinarResultadosIMC(imc):
     
     return res
 
+def encontrarMayor(num1,num2,num3):
+    mayorActual=num1
+    if mayorActual<num2:
+        mayorActual=num2
+    if mayorActual<num3:
+        mayorActual=num3
+    return mayorActual
